@@ -8,6 +8,7 @@ import Button from "@mui/material/Button";
 import Typography from "@mui/material/Typography";
 import KeyboardArrowDownIcon from "@mui/icons-material/KeyboardArrowDown";
 import { Stack } from "@mui/material";
+import Link from "next/link";
 
 const style = {
   position: "absolute",
@@ -78,7 +79,7 @@ export default function ContactModal() {
             </Typography>
             <Stack className="mt-4">
               <Button className="bg-secondary text-black">
-                Visit Contact Page
+                <Link href="/contact-us">Visit Contact Page</Link>
               </Button>
             </Stack>
           </Box>

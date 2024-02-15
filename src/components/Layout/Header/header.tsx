@@ -20,13 +20,13 @@ export default function Header() {
         </div>
       </div>
       <div className="flex justify-between items-center">
-        <div className="flex">
+        <Link href="/" className="flex">
           <Image src="/static/mit.png" alt="mit logo" width={80} height={30} />
           <div>
             <p className="font-black tracking-widest text-2xl">MIT</p>
             <p className="font-semibold text-sm">Distribution</p>
           </div>
-        </div>
+        </Link>
         <div className="flex-1 ">
           <ul className="nav">
             <li className="nav-item">
