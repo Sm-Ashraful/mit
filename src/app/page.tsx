@@ -1,3 +1,4 @@
+import Career from "@/components/Layout/Home/Career";
 import HeroSection from "@/components/Layout/Home/HeroSection";
 import ManagementAndExecution from "@/components/Layout/Home/ManagementAndExecution";
 import Network from "@/components/Layout/Home/Network";
@@ -11,6 +12,7 @@ export default function Home() {
       <ManagementAndExecution />
       <WhyUs />
       <Network />
+      <Career />
     </main>
   );
 }
