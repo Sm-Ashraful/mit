@@ -29,7 +29,10 @@ export default function ContactModal() {
 
   return (
     <div>
-      <Button onClick={handleOpen} className="!text-[.75rem]">
+      <Button
+        onClick={handleOpen}
+        className="font-semibold flex items-center !text-[.75rem]"
+      >
         Contact Us
         <KeyboardArrowDownIcon />
       </Button>

@@ -5,10 +5,10 @@ import React from "react";
 export default function ManagementAndExecution() {
   return (
     <div className="mt-10">
-      <h3 className="text-center font-bold text-3xl pb-3 text-[#494949]">
+      <h3 className="text-center font-bold text-lg sm:text-3xl pb-3 text-[#494949]">
         Supply Chain Management & Logistics Execution
       </h3>
-      <p className="text-center text-sm">
+      <p className="text-center text-[.8em] sm:text-sm">
         From inbound logistics through last mile delivery and returns, our
         integrated logistics services optimize supply chain performance for our
         partners by reducing costs, adding unique value, and mitigating risk. We
@@ -24,16 +24,19 @@ export default function ManagementAndExecution() {
           <Image
             src="/static/icon_warehouse_and_fulfillment.png"
             alt="warehouse and fulfillment"
-            width={100}
-            height={40}
+            width={80}
+            height={30}
           />
-          <h5 className="text-lg font-semibold text-center pt-3">
+          <h5 className="text-sm sm:text-lg font-semibold text-center pt-3">
             WAREHOUSING & FULFILLMENT
           </h5>
-          <p className="text-center">
+          <p className="text-[.8em] sm:text-base text-center">
             North America’s leading warehouse labor management service provider.
           </p>
-          <Link href="/" className="underline text-sm mt-5 text-secondary">
+          <Link
+            href="/"
+            className="underline text-[.6em] sm:text-sm mt-5 text-secondary"
+          >
             Get Operational Support
           </Link>
         </div>
@@ -42,17 +45,20 @@ export default function ManagementAndExecution() {
           <Image
             src="/static/icon_freight_management.png"
             alt="warehouse and fulfillment"
-            width={100}
-            height={40}
+            width={80}
+            height={30}
           />
-          <h5 className="text-lg font-semibold text-center pt-3">
+          <h5 className="text-sm sm:text-lg  font-semibold text-center pt-3">
             FREIGHT MANAGEMENT
           </h5>
-          <p className="text-center">
+          <p className="text-[.8em] sm:text-base text-center">
             Capacity solutions from carrier sourcing to RFP hosting to managed
             transportation.
           </p>
-          <Link href="/" className="underline text-sm mt-5 text-secondary">
+          <Link
+            href="/"
+            className="underline text-[.6em] sm:text-sm mt-5 text-secondary"
+          >
             Optimize Transportation
           </Link>
         </div>
@@ -60,16 +66,19 @@ export default function ManagementAndExecution() {
           <Image
             src="/static/icon_last_mile_delivery.png"
             alt="warehouse and fulfillment"
-            width={100}
-            height={40}
+            width={80}
+            height={30}
           />
-          <h5 className="text-lg font-semibold text-center pt-3">
+          <h5 className="text-sm sm:text-lg  font-semibold text-center pt-3">
             LAST MILE DELIVERY
           </h5>
-          <p className="text-center">
+          <p className="text-[.8em] sm:text-base text-center">
             Brand protection from purchase to consumer delivery.
           </p>
-          <Link href="/" className="underline text-sm mt-5 text-secondary">
+          <Link
+            href="/"
+            className="underline text-[.6em] sm:text-sm mt-5 text-secondary"
+          >
             Elevate the Last Mile
           </Link>
         </div>
