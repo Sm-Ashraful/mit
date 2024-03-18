@@ -34,7 +34,7 @@ export default function Header() {
         <div className="flex-1 hidden sm:block">
           <ul className="nav">
             <li className="nav-item">
-              <Link className="nav-link" href={"/"}>
+              <Link className="nav-link" href={"/solutions"}>
                 Solutions
                 <ArrowDropDownIcon />
               </Link>
