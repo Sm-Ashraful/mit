@@ -2,7 +2,7 @@ import React from "react";
 
 export default function HeroSection() {
   return (
-    <div className="w-full mt-5 rounded-sm relative">
+    <div className="w-full  rounded-sm relative">
       <video src={"./mit.mp4"} autoPlay muted loop className="w-full h-fit" />
       <div className="absolute w-full h-full inset-0 bg-blend-multiply bg-opacity-50 bg-primary">
         <div className="w-full h-full flex flex-col justify-center items-center px-8">

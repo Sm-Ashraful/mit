@@ -1,10 +1,11 @@
+import Skeleton from "@/components/common/Skeletorn";
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 
 export default function ManagementAndExecution() {
   return (
-    <div className="mt-10">
+    <Skeleton className="mt-10">
       <h3 className="text-center font-bold text-lg sm:text-3xl pb-3 text-[#494949]">
         Supply Chain Management & Logistics Execution
       </h3>
@@ -88,6 +89,6 @@ export default function ManagementAndExecution() {
           View More End to End Solution
         </button>
       </div>
-    </div>
+    </Skeleton>
   );
 }

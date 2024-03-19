@@ -1,12 +1,13 @@
 "use client";
 import { usePathname } from "next/navigation";
 import React from "react";
+import Skeleton from "./Skeletorn";
 
 export default function Breadcrumbs() {
   const pathName = usePathname();
 
   return (
-    <nav aria-label="Breadcrumb ">
+    <Skeleton className="" aria-label="Breadcrumb ">
       <ol className="flex items-center gap-1 text-sm text-white pl-5 py-2">
         <li>
           <a href="#" className="block transition hover:text-gray-700">
@@ -53,6 +54,6 @@ export default function Breadcrumbs() {
           </a>
         </li>
       </ol>
-    </nav>
+    </Skeleton>
   );
 }

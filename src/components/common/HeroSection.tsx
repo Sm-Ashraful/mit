@@ -20,7 +20,7 @@ export default function HeroSection({
         backgroundBlendMode: "hue",
       }}
     >
-      <div className="z-10 w-full h-full absolute inset-0 flex flex-col justify-center items-center">
+      <div className="z-10 w-full h-full absolute inset-0 flex flex-col justify-center items-center px-3 sm:px-10 lg:px-16 xl:px-20">
         <p className="text-lg sm:text-4xl font-bold text-white">{title}</p>
         <p className="pt-3 sm:pt-5 text-white text-center text-sm sm:text-xl font-semibold">
           {subTitle}

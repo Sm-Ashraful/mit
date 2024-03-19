@@ -1,10 +1,11 @@
 import React from "react";
 import Diversity2Icon from "@mui/icons-material/Diversity2";
 import LocalShippingIcon from "@mui/icons-material/LocalShipping";
+import Skeleton from "@/components/common/Skeletorn";
 
 export default function Career() {
   return (
-    <div className="grid sm:grid-cols-2 mt-10 gap-4">
+    <Skeleton className="grid sm:grid-cols-2 mt-10 gap-4">
       <div className="px-10 py-5 shadow-xl flex flex-col justify-center items-center">
         <h3 className="text-3xl mb-5 capitalize font-bold grid place-content-center text-center text-[#3F00FF]">
           <span>
@@ -42,6 +43,6 @@ export default function Career() {
           Haul for us
         </button>
       </div>
-    </div>
+    </Skeleton>
   );
 }

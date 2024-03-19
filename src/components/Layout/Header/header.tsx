@@ -5,10 +5,11 @@ import { Stack, Typography } from "@mui/material";
 import Link from "next/link";
 import ArrowDropDownIcon from "@mui/icons-material/ArrowDropDown";
 import Sidebar from "./partials/Sidebar";
+import Skeleton from "@/components/common/Skeletorn";
 
 export default function Header() {
   return (
-    <div className="sm:pb-5 py-2">
+    <Skeleton className="sm:pb-5 py-2">
       <div className="hidden sm:flex justify-between items-center py-2">
         <ContactModal />
         <div className="flex gap-2">
@@ -40,23 +41,18 @@ export default function Header() {
               </Link>
             </li>
             <li className="nav-item">
-              <Link className="nav-link" href={"/"}>
+              <Link className="nav-link" href={"/industry"}>
                 Industries
                 <ArrowDropDownIcon />
               </Link>
             </li>
             <li className="nav-item">
-              <Link className="nav-link" href={"/"}>
+              <Link className="nav-link" href={"/about-us"}>
                 About Us
                 <ArrowDropDownIcon />
               </Link>
             </li>
-            <li className="nav-item">
-              <Link className="nav-link" href={"/"}>
-                Resources
-                <ArrowDropDownIcon />
-              </Link>
-            </li>
+
             <li className="nav-item">
               <Link className="nav-link" href={"/"}>
                 Work for Us
@@ -74,6 +70,6 @@ export default function Header() {
           <ContactModal />
         </div>
       </div>
-    </div>
+    </Skeleton>
   );
 }

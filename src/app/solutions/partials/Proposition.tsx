@@ -1,9 +1,10 @@
+import Skeleton from "@/components/common/Skeletorn";
 import Image from "next/image";
 import React from "react";
 
 export default function Proposition() {
   return (
-    <div className="py-4 sm:py-10">
+    <Skeleton className="py-4 sm:py-10">
       <h3 className="text-3xl mb-5 capitalize font-bold grid place-content-center text-center text-black/80">
         <span>Our Value Proposition</span>
       </h3>
@@ -19,6 +20,6 @@ export default function Proposition() {
         height={900}
         className="mt-5"
       />
-    </div>
+    </Skeleton>
   );
 }

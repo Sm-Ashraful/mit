@@ -1,10 +1,11 @@
+import Skeleton from "@/components/common/Skeletorn";
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 
 export default function LogisticSupport() {
   return (
-    <div className="py-4 sm:py-10">
+    <Skeleton className="py-4 sm:py-10">
       <h3 className="text-3xl mb-5 capitalize font-bold grid place-content-center text-center text-black/80">
         <span>From Inbound Logistics Through Last Mile Delivery</span>
       </h3>
@@ -90,6 +91,6 @@ export default function LogisticSupport() {
           </Link>
         </div>
       </div>
-    </div>
+    </Skeleton>
   );
 }

@@ -1,9 +1,10 @@
+import Skeleton from "@/components/common/Skeletorn";
 import Image from "next/image";
 import React from "react";
 
 export default function WhyUs() {
   return (
-    <div className="relative sm:grid grid-cols-8 bg-primary mt-14 py-10">
+    <Skeleton className="relative sm:grid grid-cols-8 bg-primary mt-14 py-10">
       <div className="absolute opacity-5 sm:opacity-100 sm:relative sm:col-span-3 px-2 sm:px-8">
         <Image src="/static/1.png" alt="why use" width={400} height={400} />
       </div>
@@ -31,6 +32,6 @@ export default function WhyUs() {
           their core competencies.
         </p>
       </div>
-    </div>
+    </Skeleton>
   );
 }
